@@ -3,74 +3,260 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Acelera tu investigación con IA, R y Quarto - Edición Investigadores, 24 de octubre de 2026." />
+  <meta name="description" content="Curso práctico Acelera tu investigación con IA, R y Quarto. Edición para investigadores y profesionales del área social. 24 de octubre de 2026." />
   <title>Acelera tu investigación con IA, R y Quarto | Planning Solutions</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="topbar">
-    <div class="brand">
-      <div class="brand-mark" aria-hidden="true"><span>P</span><span>S</span></div>
-      <div><strong>PLANNING SOLUTIONS S.A.</strong><small>Planificamos hoy, construimos un futuro mejor</small></div>
+<header class="topbar">
+  <div class="brand">
+    <div class="brand-mark" aria-hidden="true"><span>P</span><span>S</span></div>
+    <div><strong>PLANNING SOLUTIONS S.A.</strong><small>Planificamos hoy, construimos un futuro mejor</small></div>
+  </div>
+  <button class="nav-toggle" id="navToggle" aria-label="Abrir navegación">☰</button>
+  <nav id="nav">
+    <a href="#inicio">Inicio</a>
+    <a href="#curso">Curso</a>
+    <a href="#ruta">Metodología</a>
+    <a href="#agenda">Agenda</a>
+    <a href="#resultados">Resultados</a>
+    <a href="#matricula">Matrícula</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="hero-copy">
+    <span class="eyebrow">EDICIÓN PARA INVESTIGADORES, DOCENTES Y PROFESIONALES DEL ÁREA SOCIAL</span>
+    <h1>Acelera tu investigación<br><span>con IA, R y Quarto</span></h1>
+    <p class="lead">Un taller intensivo para integrar inteligencia artificial, búsqueda científica, análisis con R, publicación reproducible con Quarto y control de versiones con GitHub en un solo flujo de trabajo.</p>
+    <div class="hero-meta">
+      <div><b>24 OCT 2026</b><span>Sábado</span></div>
+      <div><b>08h00–12h00</b><span>4 horas</span></div>
+      <div><b>VIRTUAL</b><span>En vivo y práctico</span></div>
     </div>
-    <button class="nav-toggle" id="navToggle" aria-label="Abrir navegación">☰</button>
-    <nav id="nav">
-      <a href="#inicio">Inicio</a><a href="#ruta">Ruta de trabajo</a><a href="#agenda">Agenda</a><a href="#matricula">Matrícula</a>
-    </nav>
-  </header>
-  <main>
-    <section class="hero" id="inicio">
-      <div class="hero-copy">
-        <span class="eyebrow">EDICIÓN PARA INVESTIGADORES Y PROFESIONALES DEL ÁREA SOCIAL</span>
-        <h1>Acelera tu investigación<br><span>con IA, R y Quarto</span></h1>
-        <p class="lead">Un taller intensivo para convertir búsquedas dispersas, documentos, datos y análisis en un flujo de investigación más ágil, verificable y reproducible.</p>
-        <div class="hero-meta"><div><b>24 OCT 2026</b><span>Sábado</span></div><div><b>08h00 - 12h00</b><span>4 horas intensivas</span></div><div><b>VIRTUAL</b><span>100% práctico</span></div></div>
-        <div class="actions"><a class="btn primary" href="guia-matriculacion.html">Ver guía de matrícula</a><a class="btn secondary" href="#ruta">Conocer la metodología</a></div>
-      </div>
-      <div class="hero-card">
-        <div class="researcher-art" aria-label="Investigación social con inteligencia artificial"><div class="rings"></div><div class="avatar">SOCIAL<br>RESEARCH</div><div class="tag t1">IA</div><div class="tag t2">R</div><div class="tag t3">Quarto</div></div>
-        <div class="hero-card-copy"><p>De la pregunta a la evidencia.</p><strong>Menos trabajo repetitivo. Más criterio investigador.</strong></div>
-      </div>
-    </section>
-    <section class="section intro">
+    <div class="actions">
+      <a class="btn primary" href="#matricula">Inscribirme</a>
+      <a class="btn secondary" href="#ruta">Ver metodología</a>
+    </div>
+  </div>
+  <div class="hero-card">
+    <div class="researcher-art" aria-label="Investigación social con inteligencia artificial">
+      <div class="rings"></div>
+      <div class="avatar">SOCIAL<br>RESEARCH</div>
+      <div class="tag t1">IA</div><div class="tag t2">R</div><div class="tag t3">Quarto</div>
+    </div>
+    <div class="hero-card-copy">
+      <p>De la pregunta a la evidencia.</p>
+      <strong>Menos trabajo repetitivo. Más criterio investigador.</strong>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="curso">
+  <div class="section-kicker">EL PROPÓSITO DEL CURSO</div>
+  <h2>No se trata de aprender herramientas aisladas, sino de construir un sistema de investigación</h2>
+  <p class="section-lead">La propuesta parte de un problema frecuente: los investigadores utilizan distintas aplicaciones para buscar literatura, comparar documentos, analizar datos, redactar, producir gráficos y preparar informes, pero cada actividad suele quedar separada de la siguiente. El curso muestra cómo conectar esas tareas para reducir duplicaciones, mantener trazabilidad y producir resultados que puedan revisarse y actualizarse.</p>
+
+  <div class="grid-3">
+    <article><span>01</span><h3>Investigar con criterio</h3><p>La IA se utiliza como apoyo para descubrir, organizar, comparar, revisar y explicar información. La selección de fuentes, las decisiones metodológicas y la interpretación permanecen bajo control del investigador.</p></article>
+    <article><span>02</span><h3>Analizar de forma reproducible</h3><p>R permite transformar datos, documentar procedimientos y generar resultados que pueden volver a ejecutarse. Esto reduce el trabajo manual y mejora la consistencia del análisis.</p></article>
+    <article><span>03</span><h3>Publicar sin reconstruir</h3><p>Quarto integra texto, código, tablas, gráficos y referencias en un mismo proyecto. GitHub conserva cambios, versiones y evidencia del proceso.</p></article>
+  </div>
+
+  <div class="audience-panel">
+    <div>
       <div class="section-kicker">¿A QUIÉN ESTÁ DIRIGIDO?</div>
-      <h2>Investigadores que necesitan integrar herramientas, no acumularlas</h2>
-      <div class="grid-3">
-        <article><span>01</span><h3>Investigación social</h3><p>Para docentes, investigadores, consultores y profesionales que trabajan con evidencia, documentos y datos.</p></article>
-        <article><span>02</span><h3>Trabajo reproducible</h3><p>Para quienes desean que el análisis pueda revisarse, repetirse y actualizarse sin rehacer todo desde cero.</p></article>
-        <article><span>03</span><h3>IA con criterio</h3><p>Para usar inteligencia artificial como apoyo al proceso, manteniendo validación humana de fuentes e interpretación.</p></article>
-      </div>
-    </section>
-    <section class="section workflow" id="ruta">
-      <div class="section-kicker">RUTA DE TRABAJO</div><h2>Investigación con IA y análisis reproducible</h2>
-      <p class="section-lead">La dinámica del curso sigue el flujo de trabajo propuesto: ChatGPT coordina, OpenCode conecta herramientas y el investigador conserva la decisión metodológica.</p>
-      <div class="workflow-grid">
-        <article class="step"><div class="num">1</div><h3>Descubrir</h3><p><b>Consensus</b> para búsqueda científica y <b>ResearchRabbit</b> para ampliar redes de literatura relacionada.</p></article>
-        <article class="step"><div class="num">2</div><h3>Contrastar</h3><p><b>Gemini</b> para comparar documentos y <b>DeepSeek</b> como apoyo en código, borradores y revisión.</p></article>
-        <article class="step"><div class="num">3</div><h3>Analizar</h3><p><b>R</b> para organizar datos, construir tablas y ejecutar análisis con trazabilidad.</p></article>
-        <article class="step"><div class="num">4</div><h3>Publicar y verificar</h3><p><b>Quarto</b> integra texto, código y resultados; <b>GitHub</b> conserva versiones, evidencia y cambios.</p></article>
-      </div>
-    </section>
-    <section class="section agenda" id="agenda">
-      <div class="section-kicker">AGENDA INTENSIVA</div><h2>Cuatro horas para construir un flujo que pueda reutilizarse después del curso</h2>
-      <div class="timeline">
-        <div><time>08h00</time><section><b>Arquitectura del flujo</b><p>Qué hace cada herramienta, qué no debe delegarse y cómo organizar un proyecto de investigación.</p></section></div>
-        <div><time>09h00</time><section><b>Búsqueda y contraste</b><p>Descubrimiento de evidencia, comparación de fuentes y apoyo de IA para síntesis sin perder trazabilidad.</p></section></div>
-        <div><time>10h00</time><section><b>Análisis con R</b><p>Preparación de datos, tablas y resultados reproducibles con un enfoque práctico.</p></section></div>
-        <div><time>11h00</time><section><b>Quarto + GitHub</b><p>Documento vivo, control de versiones y salida profesional para informes, artículos o proyectos.</p></section></div>
-      </div>
-    </section>
-    <section class="section enrollment" id="matricula">
-      <div class="enroll-copy">
-        <div class="section-kicker light">MATRÍCULAS ABIERTAS</div><h2>Sábado 24 de octubre de 2026</h2>
-        <p>Horario: <b>08h00 a 12h00</b> · Modalidad: <b>virtual</b></p>
-        <div class="prices"><div><span>Público general</span><b>$50</b></div><div><span>Docentes universitarios</span><b>$40</b></div><div><span>Estudiantes</span><b>$30</b></div></div>
-        <p class="support">Información y soporte: <b>098 114 0570</b> · planningsolution2021@gmail.com</p>
-        <div class="actions"><a class="btn gold" href="guia-matriculacion.html">Abrir guía de matriculación</a></div>
-      </div>
-    </section>
-  </main>
-  <footer><div><b>Planning Solutions S.A.</b><span>Herramientas inteligentes para investigadores que transforman el mañana.</span></div><div>Edición 24 de octubre de 2026</div></footer>
-  <script src="script.js"></script>
+      <h3>Un curso pensado para perfiles con experiencia</h3>
+    </div>
+    <div class="audience-list">
+      <p><b>Investigadores y docentes universitarios</b> que trabajan con artículos, proyectos, tesis, consultorías o informes técnicos.</p>
+      <p><b>Profesionales de ciencias sociales</b> que analizan información cuantitativa o documental y desean automatizar tareas repetitivas.</p>
+      <p><b>Consultores y equipos técnicos</b> que necesitan entregar resultados claros, verificables y fáciles de actualizar.</p>
+      <p><b>Estudiantes de posgrado</b> que ya tienen un problema de investigación y buscan organizar mejor su flujo de trabajo.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section workflow" id="ruta">
+  <div class="section-kicker">METODOLOGÍA DE TRABAJO</div>
+  <h2>Investigación con IA y análisis reproducible en cuatro etapas</h2>
+  <p class="section-lead">La dinámica replica el flujo de trabajo planteado para esta edición: ChatGPT ayuda a coordinar, revisar y explicar; OpenCode sirve como puente operativo con herramientas y código; y el proceso avanza desde el descubrimiento de evidencia hasta la publicación y verificación.</p>
+
+  <div class="workflow-grid">
+    <article class="step">
+      <div class="num">1</div><h3>Descubrir</h3>
+      <p><b>Objetivo:</b> localizar evidencia relevante y ampliar el mapa de fuentes.</p>
+      <p><b>Herramientas:</b> Consensus para búsqueda científica y ResearchRabbit para explorar artículos relacionados y conexiones entre trabajos.</p>
+      <p><b>Resultado:</b> una base inicial de literatura y fuentes que pueda ser revisada por el investigador.</p>
+    </article>
+    <article class="step">
+      <div class="num">2</div><h3>Contrastar</h3>
+      <p><b>Objetivo:</b> comparar documentos, identificar coincidencias y diferencias y revisar borradores o código.</p>
+      <p><b>Herramientas:</b> Gemini para comparación documental y DeepSeek para apoyo en código y borradores.</p>
+      <p><b>Resultado:</b> información contrastada antes de pasar al análisis.</p>
+    </article>
+    <article class="step">
+      <div class="num">3</div><h3>Analizar</h3>
+      <p><b>Objetivo:</b> pasar de información y datos a resultados verificables.</p>
+      <p><b>Herramienta:</b> R para limpieza, transformación, tablas, gráficos, estadística y comparación temporal.</p>
+      <p><b>Resultado:</b> análisis documentado que puede volver a ejecutarse.</p>
+    </article>
+    <article class="step">
+      <div class="num">4</div><h3>Publicar y verificar</h3>
+      <p><b>Objetivo:</b> producir una salida profesional sin separar redacción, código y resultados.</p>
+      <p><b>Herramientas:</b> Quarto para publicación reproducible y GitHub para código, resultados y versiones.</p>
+      <p><b>Resultado:</b> un producto final trazable y actualizable.</p>
+    </article>
+  </div>
+
+  <div class="principle">
+    <b>Principio transversal del curso:</b>
+    <p>La inteligencia artificial puede acelerar la búsqueda, la comparación, la escritura y el desarrollo técnico, pero no sustituye la verificación de fuentes, la selección metodológica ni la interpretación académica. El investigador valida fuentes e interpretación.</p>
+  </div>
+</section>
+
+<section class="section tools">
+  <div class="section-kicker">QUÉ PAPEL CUMPLE CADA HERRAMIENTA</div>
+  <h2>Una arquitectura sencilla para saber cuándo usar cada recurso</h2>
+  <div class="tool-grid">
+    <article><h3>ChatGPT</h3><p>Coordina el proceso, ayuda a formular instrucciones, revisar argumentos, explicar resultados y organizar el trabajo entre etapas.</p></article>
+    <article><h3>OpenCode</h3><p>Conecta el trabajo con archivos, herramientas y código, facilitando la ejecución de tareas dentro del proyecto.</p></article>
+    <article><h3>Consensus</h3><p>Apoya la localización de literatura científica relevante y la exploración inicial de evidencia académica.</p></article>
+    <article><h3>ResearchRabbit</h3><p>Permite recorrer redes de literatura relacionada para descubrir trabajos que pueden no aparecer en una búsqueda lineal.</p></article>
+    <article><h3>Gemini</h3><p>Se utiliza como apoyo para comparar documentos y revisar materiales extensos desde otra perspectiva.</p></article>
+    <article><h3>DeepSeek</h3><p>Apoya tareas de programación, revisión de código y generación de borradores técnicos.</p></article>
+    <article><h3>R</h3><p>Es el motor de análisis: transforma datos, calcula resultados, crea tablas y gráficos y permite repetir el análisis cuando cambian los datos.</p></article>
+    <article><h3>Quarto</h3><p>Integra narrativa, código, referencias, tablas y gráficos en una publicación reproducible.</p></article>
+    <article><h3>GitHub</h3><p>Conserva versiones, registra cambios y permite mantener una fuente única de verdad del proyecto.</p></article>
+  </div>
+</section>
+
+<section class="section agenda" id="agenda">
+  <div class="section-kicker">AGENDA DEL SÁBADO 24 DE OCTUBRE</div>
+  <h2>Cuatro horas orientadas a construir un flujo que pueda seguir utilizándose después del curso</h2>
+
+  <div class="timeline">
+    <div><time>08h00</time><section><b>Bloque 1 — Arquitectura del proceso</b><p>Cómo organizar un proyecto de investigación para que la IA, el código y los documentos trabajen juntos. Se delimita qué tareas conviene automatizar y cuáles deben mantenerse bajo criterio humano.</p></section></div>
+    <div><time>09h00</time><section><b>Bloque 2 — Descubrir y contrastar</b><p>Búsqueda de evidencia, exploración de literatura relacionada, comparación de documentos y revisión de hallazgos. Se trabaja el paso desde una pregunta de investigación hacia un conjunto organizado de fuentes.</p></section></div>
+    <div><time>10h00</time><section><b>Bloque 3 — Analizar con R</b><p>Preparación de datos, ejecución de análisis, construcción de tablas y gráficos y organización de resultados para que puedan reproducirse sin trabajo manual repetido.</p></section></div>
+    <div><time>11h00</time><section><b>Bloque 4 — Publicar, verificar y versionar</b><p>Integración de resultados en Quarto, generación de una salida profesional y uso de GitHub para conservar cambios, código y versiones del proyecto.</p></section></div>
+  </div>
+</section>
+
+<section class="section practice">
+  <div class="section-kicker">DINÁMICA PRÁCTICA</div>
+  <h2>El curso se trabaja sobre un proyecto completo, no sobre ejemplos desconectados</h2>
+  <p class="section-lead">Durante la sesión se seguirá una secuencia única: partir de una pregunta o necesidad de investigación, localizar y contrastar fuentes, organizar datos, ejecutar un análisis, interpretar resultados y producir una salida reproducible. La intención es que cada herramienta aparezca únicamente cuando resuelve una necesidad concreta del flujo.</p>
+  <div class="deliverables">
+    <div><b>1.</b><span>Pregunta o problema claramente delimitado.</span></div>
+    <div><b>2.</b><span>Fuentes localizadas y contrastadas.</span></div>
+    <div><b>3.</b><span>Datos y análisis ejecutados en R.</span></div>
+    <div><b>4.</b><span>Tablas y gráficos generados desde el código.</span></div>
+    <div><b>5.</b><span>Reporte integrado en Quarto.</span></div>
+    <div><b>6.</b><span>Proyecto organizado y versionado en GitHub.</span></div>
+  </div>
+</section>
+
+<section class="section results" id="resultados">
+  <div class="section-kicker">QUÉ DEBERÍA PODER HACER AL FINALIZAR</div>
+  <h2>Resultados de aprendizaje esperados</h2>
+  <div class="results-grid">
+    <article><h3>Diseñar un flujo</h3><p>Definir qué herramienta utilizar en cada momento de una investigación y evitar saltar de una aplicación a otra sin una lógica común.</p></article>
+    <article><h3>Buscar con más criterio</h3><p>Combinar herramientas de descubrimiento y contraste sin asumir que una respuesta generada por IA equivale a evidencia validada.</p></article>
+    <article><h3>Analizar con R</h3><p>Comprender cómo convertir tareas manuales repetitivas en procedimientos reproducibles mediante código.</p></article>
+    <article><h3>Integrar resultados</h3><p>Usar Quarto para mantener juntos texto, análisis, tablas, gráficos y referencias.</p></article>
+    <article><h3>Versionar el proyecto</h3><p>Entender el valor de GitHub para conservar el historial y mantener una estructura ordenada del trabajo.</p></article>
+    <article><h3>Reducir retrabajo</h3><p>Reutilizar procesos y actualizar resultados cuando cambian los datos o el documento, en lugar de reconstruir todo manualmente.</p></article>
+  </div>
+</section>
+
+<section class="section requirements">
+  <div class="section-kicker">ANTES DEL CURSO</div>
+  <h2>Requisitos y preparación</h2>
+  <div class="requirements-grid">
+    <div><h3>Conocimientos previos</h3><p>No se requiere dominar programación avanzada. Es útil tener experiencia básica trabajando con investigaciones, informes, bases de datos o documentos académicos.</p></div>
+    <div><h3>Equipo</h3><p>Computador con conexión estable a internet para seguir la sesión virtual y ejecutar los ejercicios.</p></div>
+    <div><h3>Enfoque</h3><p>La edición está pensada para participantes que desean comprender el flujo completo y no solamente aprender comandos aislados.</p></div>
+  </div>
+</section>
+
+<section class="section enrollment" id="matricula">
+  <div class="enroll-copy">
+    <div class="section-kicker light">MATRÍCULA</div>
+    <h2>Todo el proceso de inscripción, en esta misma página</h2>
+    <p><b>Fecha del curso:</b> sábado 24 de octubre de 2026 · <b>Horario:</b> 08h00 a 12h00 · <b>Modalidad:</b> virtual</p>
+
+    <div class="prices">
+      <div><span>Público general</span><b>$50</b></div>
+      <div><span>Docentes universitarios</span><b>$40</b></div>
+      <div><span>Estudiantes</span><b>$30</b></div>
+    </div>
+
+    <div class="enrollment-steps">
+      <article>
+        <div class="enroll-num">01</div>
+        <div><h3>Realice el depósito o transferencia</h3>
+        <dl>
+          <div><dt>Banco</dt><dd>Banco de Loja</dd></div>
+          <div><dt>Beneficiario</dt><dd>PLANNING &amp; SOLUTION S.A.</dd></div>
+          <div><dt>Cuenta</dt><dd>Cuenta Corriente — 2904631826</dd></div>
+          <div><dt>RUC</dt><dd>1191786099001</dd></div>
+          <div><dt>Valor</dt><dd>Según la categoría que corresponda</dd></div>
+        </dl></div>
+      </article>
+
+      <article>
+        <div class="enroll-num">02</div>
+        <div><h3>Si aplica un descuento, adjunte el respaldo</h3>
+        <p>Puede utilizar credencial institucional, carné estudiantil, certificado laboral u otro documento que justifique el beneficio. En el mensaje indique claramente cuál es el descuento aplicado.</p></div>
+      </article>
+
+      <article>
+        <div class="enroll-num">03</div>
+        <div><h3>Envíe el comprobante y sus datos</h3>
+        <p>Remita el comprobante por <b>correo electrónico</b> a planningsolution2021@gmail.com o por <b>WhatsApp</b> al 098 114 0570.</p>
+        <p>Incluya obligatoriamente: <b>nombre completo, número de teléfono y correo electrónico</b>. El correo es necesario para vincular al participante con el aula virtual.</p></div>
+      </article>
+
+      <article>
+        <div class="enroll-num">04</div>
+        <div><h3>Validación e ingreso</h3>
+        <p>Una vez validado el pago, el equipo de Planning Solutions registrará al participante en el aula virtual. Posteriormente se enviará al correo registrado la invitación de acceso a la plataforma.</p></div>
+      </article>
+
+      <article>
+        <div class="enroll-num">05</div>
+        <div><h3>Inicio del curso</h3>
+        <p>La sesión inicia el <b>sábado 24 de octubre de 2026 a las 08h00</b>. El acceso a los contenidos y materiales se habilitará de acuerdo con la organización académica del curso.</p></div>
+      </article>
+    </div>
+
+    <div class="support-box">
+      <h3>Soporte durante la matrícula</h3>
+      <p>Si tiene dudas sobre el pago, el descuento, el acceso o el registro, puede comunicarse al <b>098 114 0570</b> o escribir a <b>planningsolution2021@gmail.com</b>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section faq">
+  <div class="section-kicker">PREGUNTAS FRECUENTES</div>
+  <h2>Antes de inscribirse</h2>
+  <div class="faq-grid">
+    <details><summary>¿Es un curso de programación?</summary><p>No exclusivamente. R forma parte del flujo, pero el objetivo principal es integrar investigación, IA, análisis reproducible, publicación y control de versiones.</p></details>
+    <details><summary>¿La IA hará la investigación por mí?</summary><p>No. La IA se utiliza como apoyo para acelerar tareas y revisar información. La validación de fuentes, las decisiones metodológicas y la interpretación siguen siendo responsabilidad del investigador.</p></details>
+    <details><summary>¿Necesito experiencia previa con R?</summary><p>No se plantea como requisito dominar R de manera avanzada. El curso muestra su papel dentro del flujo completo y desarrolla ejercicios guiados.</p></details>
+    <details><summary>¿Por qué usar Quarto?</summary><p>Porque permite unir texto, código, resultados, tablas y gráficos en un mismo proyecto y volver a generar el documento cuando cambian los datos o el análisis.</p></details>
+    <details><summary>¿Por qué usar GitHub?</summary><p>Porque ayuda a conservar versiones, registrar cambios y mantener organizado el proyecto como una fuente única de verdad.</p></details>
+    <details><summary>¿A quién conviene esta edición?</summary><p>Especialmente a investigadores, docentes, consultores, profesionales de ciencias sociales y estudiantes de posgrado que ya trabajan con proyectos reales y quieren hacerlos más eficientes y reproducibles.</p></details>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div><b>Planning Solutions S.A.</b><span>Herramientas inteligentes para investigadores que transforman el mañana.</span></div>
+  <div>Curso práctico · 24 de octubre de 2026</div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
